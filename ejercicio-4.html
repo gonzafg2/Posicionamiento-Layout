@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Ejercicio 4</title>
+   <style media="screen" type="text/css">
+      html,
+      body {
+         margin: 0;
+         padding: 0;
+      }
+
+      .main {
+         background-color: #B0CCAB;
+         padding: 50px 50px 100px;
+      }
+
+      .main__paragraph {
+         left: 7.5%;
+         position: fixed;
+      }
+
+      .b-atras {
+         position: absolute;
+         bottom: 5%;
+         right: 5%;
+      }
+
+      .b-atras::after {
+         content: "ᐊ";
+         font-size: 8rem;
+         color: black;
+         transition: 200ms all;
+      }
+
+      .b-atras:hover::after {
+         color: rgb(0, 0, 0, .5);
+         transition: 200ms all;
+      }
+   </style>
+</head>
+
+<body>
+   <section class="main">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+         quasi neque fugit non delectus soluta fugiat, qui? Commodi sint itaque
+         necessitatibus, quibusdam quia soluta impedit facilis architecto vel? Dolor,
+         eveniet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+         quasi neque fugit non delectus soluta fugiat, qui? Commodi sint itaque
+         necessitatibus, quibusdam quia soluta impedit facilis architecto vel? Dolor,
+         eveniet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+         quasi neque fugit non delectus soluta fugiat, qui? Commodi sint itaque
+         necessitatibus, quibusdam quia soluta impedit facilis architecto vel? Dolor,
+         eveniet!</p>
+      <p class="main__paragraph">Lorem ipsum dolor sit amet, consectetur
+         adipisicing elit. Suscipit sed fugiat id eius soluta veritatis molestias saepe
+         porro impedit praesentium nisi recusandae harum, vitae, quos expedita nostrum
+         sequi! Autem, assumenda? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+         quasi neque fugit non delectus soluta fugiat, qui? Commodi sint itaque
+         necessitatibus, quibusdam quia soluta impedit facilis architecto vel? Dolor,
+         eveniet!</p>
+   </section>
+   <a href="desafio.html">
+      <div class="b-atras"></div>
+   </a>
+</body>
+
+</html>

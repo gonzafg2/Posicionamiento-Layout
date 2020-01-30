@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Ejercicio 7</title>
+   <style>
+      main {
+         position: relative;
+         width: 100vw;
+      }
+
+      img {
+         position: absolute;
+         top: 0;
+         right: 0;
+         width: 6vw;
+      }
+
+      .b-atras {
+         position: absolute;
+         bottom: 5%;
+         right: 5%;
+      }
+
+      .b-atras::after {
+         content: "ᐊ";
+         font-size: 8rem;
+         color: black;
+         transition: 200ms all;
+      }
+
+      .b-atras:hover::after {
+         color: rgb(0, 0, 0, .5);
+         transition: 200ms all;
+      }
+   </style>
+</head>
+
+<body>
+   <main>
+      <img src="https://miapp.digital/ejercicio-7_awwwards.png" alt="Logo">
+   </main>
+   <a href="desafio.html">
+      <div class="b-atras"></div>
+   </a>
+</body>
+
+</html>

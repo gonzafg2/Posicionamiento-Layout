@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Ejercicio 1</title>
+   <style media="screen" type="text/css">
+      body {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+
+      .navbar {
+         position: fixed;
+         padding: 1rem;
+         margin: 0;
+         background-color: green;
+      }
+
+      .text {
+         padding: 10rem 5px 5px;
+         margin-right: 5px;
+         margin-bottom: 5px;
+         margin-left: 5px;
+      }
+
+      .main {
+         margin: 0 5px 5px;
+         display: flex;
+      }
+
+      .box {
+         /* height: 100px; */
+
+         height: auto;
+         width: 25%;
+         margin: 5px;
+         padding: 5px;
+         border: 2px solid #808080;
+         text-align: center;
+      }
+
+      .box p {
+         text-align: left;
+      }
+
+      .b-atras {
+         position: absolute;
+         bottom: 5%;
+         right: 5%;
+      }
+
+      .b-atras::after {
+         content: "ᐊ";
+         font-size: 8rem;
+         color: black;
+         transition: 200ms all;
+      }
+
+      .b-atras:hover::after {
+         color: rgb(0, 0, 0, .5);
+         transition: 200ms all;
+      }
+   </style>
+</head>
+
+<body>
+   <nav class="navbar">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet non nisi, ratione, possimus nulla saepe maiores
+         porro magni nobis rerum enim fugit quis aut sed perferendis doloribus! Ex, beatae vel?Inventore, pariatur
+         praesentium sed necessitatibus alias exercitationem eaque veniam nihil? Beatae laboriosam fuga vel fugiat illum
+         sint, reiciendis sequi ipsum ut. Illo fuga est quas ab! Aliquam at placeat consectetur?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet non nisi, ratione, possimus nulla saepe maiores
+         porro magni nobis rerum enim fugit quis aut sed perferendis doloribus! Ex, beatae vel?Inventore, pariatur
+         praesentium sed necessitatibus alias exercitationem eaque veniam nihil? Beatae laboriosam fuga vel fugiat illum
+         sint, reiciendis sequi ipsum ut. Illo fuga est quas ab! Aliquam at placeat consectetur?</p>
+   </nav>
+   <section class="text">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae iusto, aperiam nesciunt beatae adipisci quis
+         tempora omnis odit quisquam iste saepe reprehenderit voluptatum, at magnam necessitatibus laboriosam quidem
+         laudantium. Quis.
+         Debitis iure dolores, ea, alias aut vitae obcaecati, eligendi facere perferendis quidem tenetur magni. Nulla
+         nobis officiis consectetur, sit alias ipsam? Quos incidunt ipsa amet temporibus provident, quae sed
+         voluptatibus?
+         Ullam saepe voluptas dolore earum, eos sed. Exercitationem quidem enim excepturi dolorum repudiandae recusandae
+         sequi ex laborum facilis, maiores a reiciendis similique suscipit earum! Veniam voluptatibus dolorem vel
+         suscipit ipsum.
+         Tempore quod omnis consequuntur itaque? Animi, maxime earum, harum aut nihil rerum laborum velit vitae quaerat
+         molestiae fugiat quas dolorum quis odit incidunt pariatur alias sed ab magnam temporibus. Excepturi?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae iusto, aperiam nesciunt beatae adipisci quis
+         tempora omnis odit quisquam iste saepe reprehenderit voluptatum, at magnam necessitatibus laboriosam quidem
+         laudantium. Quis.
+         Debitis iure dolores, ea, alias aut vitae obcaecati, eligendi facere perferendis quidem tenetur magni. Nulla
+         nobis officiis consectetur, sit alias ipsam? Quos incidunt ipsa amet temporibus provident, quae sed
+         voluptatibus?
+         Ullam saepe voluptas dolore earum, eos sed. Exercitationem quidem enim excepturi dolorum repudiandae recusandae
+         sequi ex laborum facilis, maiores a reiciendis similique suscipit earum! Veniam voluptatibus dolorem vel
+         suscipit ipsum.
+         Tempore quod omnis consequuntur itaque? Animi, maxime earum, harum aut nihil rerum laborum velit vitae quaerat
+         molestiae fugiat quas dolorum quis odit incidunt pariatur alias sed ab magnam temporibus. Excepturi?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae iusto, aperiam nesciunt beatae adipisci quis
+         tempora omnis odit quisquam iste saepe reprehenderit voluptatum, at magnam necessitatibus laboriosam quidem
+         laudantium. Quis.
+         Debitis iure dolores, ea, alias aut vitae obcaecati, eligendi facere perferendis quidem tenetur magni. Nulla
+         nobis officiis consectetur, sit alias ipsam? Quos incidunt ipsa amet temporibus provident, quae sed
+         voluptatibus?
+         Ullam saepe voluptas dolore earum, eos sed. Exercitationem quidem enim excepturi dolorum repudiandae recusandae
+         sequi ex laborum facilis, maiores a reiciendis similique suscipit earum! Veniam voluptatibus dolorem vel
+         suscipit ipsum.
+         Tempore quod omnis consequuntur itaque? Animi, maxime earum, harum aut nihil rerum laborum velit vitae quaerat
+         molestiae fugiat quas dolorum quis odit incidunt pariatur alias sed ab magnam temporibus. Excepturi?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae iusto, aperiam nesciunt beatae adipisci quis
+         tempora omnis odit quisquam iste saepe reprehenderit voluptatum, at magnam necessitatibus laboriosam quidem
+         laudantium. Quis.
+         Debitis iure dolores, ea, alias aut vitae obcaecati, eligendi facere perferendis quidem tenetur magni. Nulla
+         nobis officiis consectetur, sit alias ipsam? Quos incidunt ipsa amet temporibus provident, quae sed
+         voluptatibus?
+         Ullam saepe voluptas dolore earum, eos sed. Exercitationem quidem enim excepturi dolorum repudiandae recusandae
+         sequi ex laborum facilis, maiores a reiciendis similique suscipit earum! Veniam voluptatibus dolorem vel
+         suscipit ipsum.
+         Tempore quod omnis consequuntur itaque? Animi, maxime earum, harum aut nihil rerum laborum velit vitae quaerat
+         molestiae fugiat quas dolorum quis odit incidunt pariatur alias sed ab magnam temporibus. Excepturi?</p>
+   </section>
+
+   <section class="main">
+      <section class="box">
+         <img src="https://miapp.digital/desafiolatam_logo.png" alt="">
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eius maxime dolorem consequatur mollitia
+            explicabo ut deserunt voluptates dignissimos dolore, ducimus ipsa officiis in esse quaerat doloribus dicta,
+            molestias eligendi!
+         </p>
+      </section>
+      <section class="box">
+         <img src="https://miapp.digital/desafiolatam_logo.png" alt="">
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eius maxime dolorem consequatur mollitia
+            explicabo ut deserunt voluptates dignissimos dolore, ducimus ipsa officiis in esse quaerat doloribus dicta,
+            molestias eligendi!
+         </p>
+      </section>
+      <section class="box">
+         <img src="https://miapp.digital/desafiolatam_logo.png" alt="">
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eius maxime dolorem consequatur mollitia
+            explicabo ut deserunt voluptates dignissimos dolore, ducimus ipsa officiis in esse quaerat doloribus dicta,
+            molestias eligendi!
+         </p>
+      </section>
+      <section class="box">
+         <img src="https://miapp.digital/desafiolatam_logo.png" alt="">
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eius maxime dolorem consequatur mollitia
+            explicabo ut deserunt voluptates dignissimos dolore, ducimus ipsa officiis in esse quaerat doloribus dicta,
+            molestias eligendi!
+         </p>
+      </section>
+   </section>
+   <a href="desafio.html">
+      <div class="b-atras"></div>
+   </a>
+</body>
+
+</html>

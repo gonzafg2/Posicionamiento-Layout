@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Banderas</title>
+
+   <style>
+      body {
+         display: flex;
+         flex-wrap: wrap;
+         height: 100vh;
+         padding-right: 10rem;
+         padding-left: 10rem;
+      }
+
+      section {
+         display: flex;
+         width: 50%;
+         align-items: center;
+
+      }
+
+      .marco {
+         position: relative;
+         width: 450px;
+         height: 300px;
+         border: 1px solid rgb(0, 0, 0, 0.35);
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      /* Bandera de España */
+      .bandera-españa .seccion-1 {
+         width: 100%;
+         height: 30%;
+         background-color: red;
+      }
+
+      .bandera-españa .seccion-2 {
+         width: 100%;
+         height: 40%;
+         background-color: yellow;
+      }
+
+      .bandera-españa .seccion-3 {
+         width: 100%;
+         height: 30%;
+         background-color: red;
+      }
+
+      /* Bandera de España */
+
+      /* Bandera de Dinamarca */
+      .bandera-dinamarca .marco {
+         background-color: red;
+      }
+
+      .bandera-dinamarca .seccion-1 {
+         width: 100%;
+         height: 10%;
+         background-color: white;
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         margin: auto;
+      }
+
+      .bandera-dinamarca .seccion-2 {
+         height: 100%;
+         width: 7.5%;
+         background-color: white;
+         position: absolute;
+         left: 30%;
+      }
+
+      /* Bandera de Dinamarca */
+
+      /* Bandera de Emiratos Árabes */
+      .bandera-e_arabes .seccion-1 {
+         width: 25%;
+         height: 100%;
+         background-color: red;
+         float: left;
+      }
+
+      .bandera-e_arabes .seccion-2 {
+         width: 100%;
+         height: 33.33%;
+         background-color: darkgreen;
+      }
+
+      .bandera-e_arabes .seccion-3 {
+         width: 100%;
+         height: 33.34%;
+         background-color: white;
+      }
+
+      .bandera-e_arabes .seccion-4 {
+         width: 100%;
+         height: 33.33%;
+         background-color: black;
+      }
+
+      /* Bandera de Emiratos Árabes */
+
+      /* Bandera de Japón */
+      .p-rojo {
+         position: absolute;
+         background-color: red;
+         border-radius: 50%;
+         width: 150px;
+         height: 150px;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         margin: auto;
+         /* Bandera de Japón */
+      }
+
+      .b-atras {
+         position: absolute;
+         bottom: 5%;
+         right: 5%;
+      }
+
+      .b-atras::after {
+         content: "ᐊ";
+         font-size: 8rem;
+         color: black;
+         transition: 200ms all;
+      }
+
+      .b-atras:hover::after {
+         color: rgb(0, 0, 0, .5);
+         transition: 200ms all;
+      }
+   </style>
+
+</head>
+
+<body>
+   <section class="bandera-españa">
+      <div class="marco">
+         <div class="seccion-1"></div>
+         <div class="seccion-2"></div>
+         <div class="seccion-3"></div>
+      </div>
+   </section>
+
+   <section class="bandera-dinamarca">
+      <div class="marco">
+         <div class="seccion-1"></div>
+         <div class="seccion-2"></div>
+      </div>
+   </section>
+
+   <section class="bandera-e_arabes">
+      <div class="marco">
+         <div class="seccion-1"></div>
+         <div class="seccion-2"></div>
+         <div class="seccion-3"></div>
+         <div class="seccion-4"></div>
+      </div>
+   </section>
+
+   <section class="bandera-japon">
+      <div class="marco">
+         <div class="p-rojo">
+         </div>
+      </div>
+   </section>
+   <a href="desafio.html">
+      <div class="b-atras"></div>
+   </a>
+</body>
+
+</html>

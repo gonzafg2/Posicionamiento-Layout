@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Ejercicio 6</title>
+   <style>
+      .marco {
+         margin-top: 1rem;
+         position: relative;
+         width: 800px;
+         height: 800px;
+         margin-right: auto;
+         margin-left: auto;
+      }
+
+      .img1 {
+         width: 100%;
+         height: 100%;
+      }
+
+      .img2 {
+         position: absolute;
+         right: 10%;
+         bottom: 10%;
+      }
+
+      .b-atras {
+         position: absolute;
+         bottom: 5%;
+         right: 5%;
+      }
+
+      .b-atras::after {
+         content: "ᐊ";
+         font-size: 8rem;
+         color: black;
+         transition: 200ms all;
+      }
+
+      .b-atras:hover::after {
+         color: rgb(0, 0, 0, .5);
+         transition: 200ms all;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="marco">
+      <img class="img1" src="https://miapp.digital/energy-sistem-extra-battery-5000-powerbank-5000mah-11.jpg"
+         alt="Fondo">
+      <img class="img2" src="https://miapp.digital/ejercicio-6_ribbon.png" alt="Ribbon">
+   </div>
+   <a href="desafio.html">
+      <div class="b-atras"></div>
+   </a>
+</body>
+
+</html>
